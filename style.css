@@ -1,12 +1,12 @@
 /* Include the padding and border in an element's total width and height */
 * {
   box-sizing: border-box;
-
 }
-
-body{
+body {
   background-color: blanchedalmond;
 }
+
+/* Remove margins and padding from the list */
 ul {
   margin: 0;
   padding: 0;
@@ -99,7 +99,7 @@ input {
 }
 
 /* Style the "Add" button */
-.add-Btn {
+.addBtn {
   padding: 10px;
   width: 25%;
   background: #d9d9d9;
@@ -112,6 +112,6 @@ input {
   border-radius: 0;
 }
 
-.add-Btn:hover {
+.addBtn:hover {
   background-color: #bbb;
 }
